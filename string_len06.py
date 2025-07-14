@@ -7,4 +7,8 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    return min(len(s1) , len(s2))
+s1 = input("enter first string:") 
+s2 = input("enter second string:")
+
+print("shortest length:" 'main(s1 , s2')
